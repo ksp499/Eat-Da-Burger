@@ -8,6 +8,6 @@ CREATE TABLE burgers (
   devoured BOOLEAN NOT NULL,
   date DATETIME NOT NULL,
 
-  PRIMARY KEY ('id')
+  PRIMARY KEY (id)
 
 );
