@@ -11,3 +11,5 @@ CREATE TABLE burgers (
   PRIMARY KEY (id)
 
 );
+
+DELETE FROM burgers WHERE devoured= 'true';
